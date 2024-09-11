@@ -5,8 +5,8 @@ body {
 
 .head {
   text-decoration: none;
+  background-color:#e7e9fc ;
 }
-
 .Web {
   text-decoration: none;
   color: #4d5ae5;
@@ -39,7 +39,6 @@ body {
   line-height: 1.4;
   letter-spacing: 2%;
 }
-
 .page-menu-list li {
   list-style-type: none;
 }
@@ -297,4 +296,20 @@ body {
 
 .footer-href {
   text-decoration: none;
+}
+
+
+.page-menu-list {
+  display: flex;
+  align-items: center;
+}
+.header-div {
+  width: 1440px;
+  height: 72px;
+  align-items: center;
+  display: flex;
+}
+
+.header-div nav {
+flex-grow: 3;
 }
