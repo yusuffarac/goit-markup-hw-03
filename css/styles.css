@@ -5,11 +5,7 @@ body {
 h3 {
   font-size: 20px;
 }
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 .head {
   text-decoration: none;
   background-color:#e7e9fc ;
@@ -36,6 +32,13 @@ img {
 }
 .mail-tel a:hover {
   color: #404bbf;
+}
+.page-menu-list {
+    display: flex;
+    gap: 40px;
+}
+.page-menu-article {
+  padding: 24px 0;
 }
 .page-menu-list a {
   text-decoration: none;
@@ -308,17 +311,40 @@ img {
 .footer-href {
   text-decoration: none;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.main-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+.logo-link {
+  margin-right: 76px;
+}
 
 .header-div {
   border-bottom: 1px solid #e7e9fc;
  display: flex;
  align-items: center;
- margin-left: 200px;
+ margin-left: 0 auto;
 }
 .header-div ul {
   display: flex;
   align-items: center;
-  margin-right: 450px;
+  margin-right: 280px;
   margin-left: 50px;
 }
 .page-menu-list a {
@@ -328,6 +354,7 @@ img {
 }
 .mail-tel {
   display: flex;
+  gap: 40px;
 }
 .mail-tel a {
   margin-right: 20px;
