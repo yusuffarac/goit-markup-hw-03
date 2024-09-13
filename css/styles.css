@@ -343,7 +343,9 @@ body {
 }
 .effective-solutions button {
   width: 169px;
-  height: 60px;
+  height:60px;
   margin-left:920px;
   align-items: center;
+  border-radius: 7%;
+  border-color:#4d5ae5;
 }
