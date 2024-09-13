@@ -331,7 +331,7 @@ img {
     display: flex;
     align-items: center;
 }
-.logo-link {
+.Logo-link {
   margin-right: 76px;
 }
 
@@ -351,6 +351,13 @@ img {
   gap: 40px;
   align-items: center;
   margin-right: 30px;
+}
+.mail-tel li {
+  list-style-type: none;
+}
+.mail-tel-list {
+  display: flex;
+  gap: 40px;
 }
 .mail-tel {
   display: flex;
