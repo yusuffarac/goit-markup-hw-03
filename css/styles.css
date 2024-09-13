@@ -365,33 +365,3 @@ img {
 .goals li {
 margin-right: 20px;
 }
-.section-our-team h2 {
-  padding-left: 620px;
-  margin-top: 136px;
-}
-.flex-container {
-  display: flex;
-  padding-left: 50px;
-}
-.flex-container div {
-  background-color: #ffffff;
-  border-radius: 0px, 0px, 4px, 4px;
-  margin-right: 20px;
-  padding: 0px , 0px, 32px, 0px;
-  gap: 32px;
-}
-.flex-container h3 {
-  padding-left: 80px;
-}
-.product-p {
-padding-left: 70px;
-}
-.tom-p {
-  padding-left: 50px;
-}
-.camila-p {
-  padding-left: 100px;
-}
-.daniel-p { 
-  padding-left: 100px;
-}
