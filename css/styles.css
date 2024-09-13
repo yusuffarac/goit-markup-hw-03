@@ -71,12 +71,11 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 3.75rem;
-  letter-spacing: 2%;
   color: #ffffff;
   background-color: #2e2f42;
 }
 .effective-solutions h1 {
-  font-size: 56px;
+  font-size: 56px ;
 }
 .effective-solutions button {
   font-family: "Roboto", sans-serif;
@@ -252,7 +251,7 @@ body {
   color: #2e2f42;
 }
 
-.App p {
+.app p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -263,6 +262,8 @@ body {
 
 .footer {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
 }
 
 .footer p {
@@ -298,18 +299,33 @@ body {
   text-decoration: none;
 }
 
-
-.page-menu-list {
-  display: flex;
-  align-items: center;
-}
 .header-div {
-  width: 1440px;
-  height: 72px;
+ width: 300px;
+ height: 24px;
+ display: flex;
+ align-items: center;
+ padding-left:150px;
+ padding-top: 30px;
+}
+.header-div ul {
+  width: 300px;
+  height: 24px;
+  display: flex;
   align-items: center;
+  margin-right: 800px;
+  margin-left: 50px;
+}
+.page-menu-list a {
+  width: 48px;
+  height: 24px;
+  align-items: center;
+  margin-right: 60px;
+}
+.mail-tel {
   display: flex;
 }
-
-.header-div nav {
-flex-grow: 3;
+.mail-tel a {
+  margin-right: 20px;
 }
+
+
