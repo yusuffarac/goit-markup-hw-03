@@ -300,24 +300,17 @@ body {
 }
 
 .header-div {
- width: 300px;
- height: 24px;
  display: flex;
  align-items: center;
- padding-left:150px;
- padding-top: 30px;
+ margin-left: 200px;
 }
 .header-div ul {
-  width: 300px;
-  height: 24px;
   display: flex;
   align-items: center;
   margin-right: 800px;
   margin-left: 50px;
 }
 .page-menu-list a {
-  width: 48px;
-  height: 24px;
   align-items: center;
   margin-right: 60px;
 }
@@ -348,4 +341,10 @@ body {
   align-items: center;
   border-radius: 7%;
   border-color:#4d5ae5;
+}
+.goals  {
+  width: 1128px;
+  display: flex;
+  margin-left: 400px;
+  margin-top: 100px;
 }
