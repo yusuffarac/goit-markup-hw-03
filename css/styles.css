@@ -251,11 +251,13 @@ h3 {
   color: #2e2f42;
 }
 
-.app {
+.app-1 {
   list-style-type: none;
 }
-
-.app h3 {
+.app-2 {
+  list-style-type: none;
+}
+.app-1 h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -263,8 +265,23 @@ h3 {
   letter-spacing: 2%;
   color: #2e2f42;
 }
-
-.app p {
+.app-2 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5rem;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.app-1 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5rem;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.app-2 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -437,4 +454,51 @@ margin-right: 20px;
 }
 .Daniel-card p {
   padding-left: 90px;
+}
+.our-portfolio {
+  padding-left: 610px;
+  padding-top: 250px;
+}
+.app-1 {
+  display: flex;
+  margin-left: 120px;
+}
+.app-1 li {
+  margin-right: 20px;
+  display: block;
+}
+.app-2 {
+  display: flex;
+  margin-left: 120px;
+
+}
+.app-2 li {
+  margin-right: 20px;
+  display: block;
+}
+.app-1 h3 {
+  padding-left: 110px;
+}
+.app-1 p {
+  padding-left: 160px;
+}
+.app-2 h3 {
+padding-left: 110px;
+}
+.app-2 p {
+padding-left: 130px;
+}
+.screen-illustrations-div p {
+  padding-left: 155px; 
+}
+.footer div a  {
+  border: solid red;
+  padding-top: 600px;
+}
+.footer p {
+  border: solid red;
+  margin-top: 120px;
+  padding-left: 170px;
+  padding-right: 1008px;
+
 }
