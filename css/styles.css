@@ -491,14 +491,14 @@ padding-left: 130px;
 .screen-illustrations-div p {
   padding-left: 155px; 
 }
-.footer div a  {
-  border: solid red;
-  padding-top: 600px;
+.footer a  {
+  display: flex;
+  padding-top:120px;
+  padding-left: 170px;
+
 }
 .footer p {
-  border: solid red;
-  margin-top: 120px;
   padding-left: 170px;
   padding-right: 1008px;
-
+  display: inline-block;
 }
