@@ -344,13 +344,13 @@ img {
 .header-div ul {
   display: flex;
   align-items: center;
-  margin-right: 280px;
+  margin-right: 50px;
   margin-left: 50px;
 }
 .page-menu-list a {
   gap: 40px;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 30x;
 }
 .mail-tel li {
   list-style-type: none;
@@ -398,4 +398,43 @@ img {
 }
 .goals li {
 margin-right: 20px;
+}
+.section-our-team h2 {
+  display: flex;
+  padding-left: 640px;
+}
+.our-team {
+  display: flex;
+  margin-left:80px;
+}
+.our-team li {
+  margin-right: 20px;
+  display: block;
+}
+.mark-card:hover {
+  color: #ffffff;
+}
+.mark-card h3 {
+  padding-left:60px ;
+}
+.mark-card p {
+  padding-left:60px ;
+}
+.Tom-card h3 {
+  padding-left:70px ;
+}
+.Tom-card p {
+  padding-left:45px ;
+}
+.Camila-card h3 {
+  padding-left:70px ;
+}
+.Camila-card p {
+  padding-left: 95px;
+}
+.Daniel-card h3 {
+  padding-left: 70px;
+}
+.Daniel-card p {
+  padding-left: 90px;
 }
