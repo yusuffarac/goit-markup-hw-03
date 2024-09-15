@@ -101,7 +101,7 @@ h3 {
   background: #404bbf;
 }
 /*hedefler*/
-.goals li {
+.goals-team li {
   list-style-type: none;
 }
 
@@ -417,34 +417,56 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
 }
+/* section and portfolio*/
 .team-section-content {
   padding: 120px 0;
 }
-
-.goals  {
+.goals-team  {
   width: 1128px;
   display: flex;
-  margin-left: 100px;
+  margin-left: 400px;
   margin-top: 40px;
 }
-.goals li {
-margin-right: 20px;
+.goals-team li {
+margin-right: 30px;
 }
 .section-our-team h2 {
   display: flex;
   padding-left: 640px;
 }
-
+.container {
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.visualy-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 .our-team {
   display: flex;
   margin-left:80px;
+  gap: 24px;
 }
 .our-team li {
   margin-right: 20px;
   display: block;
 }
-.mark-card:hover {
-  color: #ffffff;
+.mark-list-card {
+  background-color: #ffffff;
+}
+.mark-list-card div:hover {
+  border: solid #ffffff;
+}
+.mark-name {
+  margin-bottom: 8px;
 }
 .mark-card h3 {
   padding-left:60px ;
@@ -452,17 +474,35 @@ margin-right: 20px;
 .mark-card p {
   padding-left:60px ;
 }
+.tom-list-card {
+  background-color: #ffffff;
+}
+.tom-list-card div:hover {
+  border: solid #ffffff;
+}
 .Tom-card h3 {
   padding-left:70px ;
 }
 .Tom-card p {
   padding-left:45px ;
 }
+.camila-list-card {
+  background-color: #ffffff;
+}
+.camila-list-card div:hover {
+  border: solid #ffffff;
+}
 .Camila-card h3 {
   padding-left:70px ;
 }
 .Camila-card p {
   padding-left: 95px;
+}
+.daniel-list-card {
+  background-color: #ffffff;
+}
+.daniel-list-card div:hover {
+  border: solid #ffffff;
 }
 .Daniel-card h3 {
   padding-left: 70px;
