@@ -417,6 +417,10 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
 }
+.team-section-content {
+  padding: 120px 0;
+}
+
 .goals  {
   width: 1128px;
   display: flex;
@@ -430,6 +434,7 @@ margin-right: 20px;
   display: flex;
   padding-left: 640px;
 }
+
 .our-team {
   display: flex;
   margin-left:80px;
