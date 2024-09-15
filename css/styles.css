@@ -386,27 +386,34 @@ img {
 }
 .effective-solutions {
   border: solid white;
-  width: 1440px;
-  height:600px;
   margin-top: 20px;
 }
+.effective-title {
+  max-width: 496px;
+}
+.effective-solutions {
+  padding: 188px 0;
+}
 .effective-solutions h1 {
-  width:496px;
-  height: 120px;
+ max-width: 496px;
   margin-left: 500px;
   margin-top: 200px;
   align-items: center;
   display: flex;
 }
-.effective-solutions button {
+.order-button {
   display: block;
   margin: 0 auto;
-  width: 169px;
-  height:60px;
+  display: block;
+  margin: 0 auto;
   margin-left:650px;
   align-items: center;
-  border-radius: 7%;
-  border-color:#4d5ae5;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 .goals  {
   width: 1128px;
