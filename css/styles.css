@@ -344,6 +344,13 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+.container {
+  display: -webkit-flex; /* Eski Chrome/Safari */
+  display: -moz-flex;    /* Eski Firefox */
+  display: -ms-flex;     /* Eski Internet Explorer */
+  display: flex;         /* Modern tarayıcılar */
+}
+
 .main-nav {
     display: flex;
     align-items: center;
