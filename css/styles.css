@@ -349,15 +349,17 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-
+.Logo-nav {
+ margin-right: 76px;
+ color:white;
+}
 .main-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .Logo-link {
   margin-right: 76px;
 }
-
 .header-div {
   border-bottom: 1px solid #e7e9fc;
  display: flex;
