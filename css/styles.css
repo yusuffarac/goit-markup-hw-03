@@ -340,6 +340,8 @@ img {
 }
 .header-container {
   display: flex;
+  width: 1158px ;
+  padding: 0 15px;
 }
 .container-1 {
   width: 1158px;
