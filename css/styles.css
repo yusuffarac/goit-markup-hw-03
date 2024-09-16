@@ -105,7 +105,7 @@ h3 {
   list-style-type: none;
 }
 
-.strategy {
+.strategy-goals {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -114,7 +114,35 @@ h3 {
   color: #2e2f42;
 }
 
-.strategy p {
+.strategy-goals p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5rem;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.strategy-goals {
+  margin-bottom: 8px;
+}
+.punctuality-goals {
+  margin-bottom: 8px;
+}.diligence-goals {
+  margin-bottom: 8px;
+}.technologies-goals {
+  margin-bottom: 8px;
+}
+
+.punctuality-goals {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5rem;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.punctuality-goals p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -123,7 +151,7 @@ h3 {
   color: #434455;
 }
 
-.punctuality {
+.diligence-goals {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -132,7 +160,7 @@ h3 {
   color: #2e2f42;
 }
 
-.punctuality p {
+.diligence p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -141,7 +169,7 @@ h3 {
   color: #434455;
 }
 
-.diligence {
+.technologies-goals {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -150,25 +178,7 @@ h3 {
   color: #2e2f42;
 }
 
-.diligence-p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5rem;
-  letter-spacing: 2%;
-  color: #434455;
-}
-
-.technologies {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5rem;
-  letter-spacing: 2%;
-  color: #2e2f42;
-}
-
-.technologies p {
+.technologies-goals p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -425,12 +435,14 @@ img {
 /* section and portfolio*/
 .team-section-content {
   padding: 120px 0;
+  width: calc((100% - 72px) / 4);
 }
 .goals-team  {
   width: 1128px;
   display: flex;
   margin-left: 400px;
   margin-top: 40px;
+  gap: 24px;
 }
 .goals-team li {
 margin-right: 30px;
@@ -444,6 +456,9 @@ margin-right: 30px;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.container-3 {
+
 }
 .visualy-hidden {
   position: absolute;
