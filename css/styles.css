@@ -244,7 +244,7 @@ h3 {
   color: #2e2f42;
 }
 
-.our-portfolio {
+.portfolio-title{
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -535,37 +535,71 @@ margin-right: 30px;
 .daniel-list-card div:hover {
   border: solid #ffffff;
 }
-.our-portfolio {
+.portfolio-title {
   padding-left: 610px;
   padding-top: 250px;
 }
-.app-1 {
+.section-portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.portfolio-card {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+
+.portfolio-list-2 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.porfolio-list {
   display: flex;
   margin-left: 120px;
 }
-.app-1 li {
+.porfolio-list li {
   margin-right: 20px;
   display: block;
 }
-.app-2 {
+.porfolio-list-2 {
   display: flex;
   margin-left: 120px;
 
 }
-.app-2 li {
+.porfolio-list-2 li {
   margin-right: 20px;
   display: block;
 }
-.app-1 h3 {
+.porfolio-list h3 {
   padding-left: 110px;
 }
-.app-1 p {
+.porfolio-list p {
   padding-left: 160px;
 }
-.app-2 h3 {
+.porfolio-list-2 h3 {
 padding-left: 110px;
 }
-.app-2 p {
+.porfolio-list-2 p {
 padding-left: 130px;
 }
 .screen-illustrations-div p {
