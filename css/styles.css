@@ -541,7 +541,7 @@ margin-right: 30px;
   border: solid #ffffff;
 }
 .portfolio-title {
-  padding-left: 610px;
+  padding-left: 900px;
   padding-top: 250px;
 }
 .section-portfolio {
@@ -557,30 +557,40 @@ margin-right: 30px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 420px;
 }
 
-.portfolio-item {
+.portfolio-item-1 {
   width: calc((100% - 72px) / 4);
 }
-
+.portfolio-item-2 {
+  width: calc((100% - 72px) / 4);
+}
 .portfolio-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
-
-
 .portfolio-list-2 {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  list-style-type: none;
+  padding-left: 420px;
 }
 
-.porfolio-list {
-  display: flex;
-  margin-left: 120px;
+.portfolio-app-name {
+  padding-left: 110px;
+}
+.portfolio-app-name-2 {
+  padding-left: 100px;
+}
+.portfolio-category {
+  padding-left: 150px;
 }
 .porfolio-list li {
   margin-right: 20px;
@@ -589,23 +599,13 @@ margin-right: 30px;
 .porfolio-list-2 {
   display: flex;
   margin-left: 120px;
-
 }
 .porfolio-list-2 li {
   margin-right: 20px;
   display: block;
 }
-.porfolio-list h3 {
-  padding-left: 110px;
-}
-.porfolio-list p {
-  padding-left: 160px;
-}
-.porfolio-list-2 h3 {
-padding-left: 110px;
-}
-.porfolio-list-2 p {
-padding-left: 130px;
+.portfolio-category-2 {
+  padding-left: 120px;
 }
 .screen-illustrations-div p {
   padding-left: 155px; 
@@ -614,7 +614,6 @@ padding-left: 130px;
   display: flex;
   padding-top:120px;
   padding-left: 170px;
-
 }
 .footer p {
   padding-left: 170px;
