@@ -462,8 +462,9 @@ display: flex;
   margin: 0 auto;
   padding: 0 15px;
 }
-.container-3 {
-
+.strategy-goals-h3 {
+  width: calc((100% - 72px) / 4);
+  
 }
 .visually-hidden {
   position: absolute;
