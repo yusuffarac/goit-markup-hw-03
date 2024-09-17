@@ -407,7 +407,7 @@ display: flex;
 }
 .effective-solutions {
   border: solid white;
-  margin-top: 20px;
+  padding: 188px 0;
 }
 .effective-title {
   max-width: 496px;
