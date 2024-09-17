@@ -412,9 +412,7 @@ display: flex;
 .effective-title {
   max-width: 496px;
 }
-.effective-solutions {
-  padding: 188px 0;
-}
+
 .effective-solutions h1 {
  max-width: 496px;
   margin-left: 500px;
