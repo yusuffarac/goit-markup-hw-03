@@ -137,7 +137,9 @@ ul {
   margin-bottom: 8px;
 }
 .goals-team-li {
-  width: calc((100%-71px) / 4);
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-right: 60px;
 }
 .list-class {
   position: absolute;
@@ -468,7 +470,7 @@ img {
 }
 .section-our-team h2 {
   display: flex;
-  padding-left: 640px;
+  padding-left: 570px;
 }
 .container-2 {
   max-width: 1158px;
@@ -489,6 +491,7 @@ img {
   display: flex;
   margin-left: 80px;
   gap: 24px;
+  margin-top: 100px;
 }
 .our-team h2 {
   margin-bottom: 72px;
