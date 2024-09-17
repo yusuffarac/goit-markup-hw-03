@@ -128,7 +128,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .goals-h3-class {
   margin-bottom: 8px;
 }
-
+.goals-team-li {
+  width: calc((100%-71px)/4);
+}
 .punctuality-goals {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
