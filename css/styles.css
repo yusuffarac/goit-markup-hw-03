@@ -133,7 +133,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .list-class {
   position: absolute;
-  width: 1px;
   height: 1px;
   padding: 0;
   margin: -1px;
@@ -310,13 +309,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
   color: #434455;
 }
 
-.footer {
+.footer-footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
+  padding: 100px 0;
 }
 
-.footer p {
+.footer-footer p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -641,13 +639,11 @@ display: flex;
 .screen-illustrations-div p {
   padding-left: 155px; 
 }
-.footer a  {
+.footer-footer a  {
   display: flex;
-  padding-top:120px;
-  padding-left: 170px;
+  padding-left: 200px;
 }
-.footer p {
-  padding-left: 170px;
-  padding-right: 1008px;
-  display: inline-block;
+.footer-footer p {
+  padding-left: 200px;
+max-width: 264px;
 }
