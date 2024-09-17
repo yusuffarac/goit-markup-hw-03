@@ -23,7 +23,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
   line-height: 1.3;
   letter-spacing: 3%;
 }
-
+.logo-nav-class {
+  
+}
 .studio {
   text-decoration: none;
   color: #2e2f42;
@@ -38,8 +40,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
   color: #404bbf;
 }
 .page-menu-list {
-    display:flexbox;
-    gap: 40px;
+  display:flex;
+  gap: 40px;
 }
 .page-menu-article {
   padding: 24px 0;
@@ -351,7 +353,7 @@ img {
 .main-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container {
+.container container {
   display: flex;
   width: 1158px ;
   padding: 0 15px;
@@ -369,6 +371,7 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
+  border: solid red;
 }
 .Logo-link {
   margin-right: 76px;
@@ -597,9 +600,10 @@ display: flex;
   height: auto;
 }
 .portfolio-card {
-  border: none;
+   border: none;
   border-bottom: 1px solid #e7e9fc;
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
