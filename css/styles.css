@@ -125,14 +125,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 2%;
   color: #434455;
 }
-.strategy-goals {
-  margin-bottom: 8px;
-}
-.punctuality-goals {
-  margin-bottom: 8px;
-}.diligence-goals {
-  margin-bottom: 8px;
-}.technologies-goals {
+.goals-h3-class {
   margin-bottom: 8px;
 }
 
