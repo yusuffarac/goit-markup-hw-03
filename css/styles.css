@@ -450,15 +450,11 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .goals-team {
-   
-  display: flex;
-  padding-left: 420px;
-  gap: 24px;
-  margin: 0 auto;
+  border: solid;
+  display:flex;
 }
-.goals-team li {
-  margin-bottom: 20px;
-}
+
+
 .section-our-team {
   margin: 0;
 }
