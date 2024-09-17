@@ -450,7 +450,7 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .goals-team {
-  width: 1128px;
+   
   display: flex;
   padding-left: 420px;
   gap: 24px;
@@ -467,7 +467,6 @@ img {
   padding-left: 640px;
 }
 .container-2 {
-  width: 100%;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -475,7 +474,6 @@ img {
 .visually-hidden {
   width: calc((100% - 72px) / 4);
   position: absolute;
-  width: 1px;
   height: 1px;
   padding: 0;
   margin: -1px;
@@ -618,16 +616,6 @@ img {
   list-style-type: none;
   padding-left: 420px;
 }
-
-.portfolio-app-name {
-  padding-left: 110px;
-}
-.portfolio-app-name-2 {
-  padding-left: 100px;
-}
-.portfolio-category {
-  padding-left: 150px;
-}
 .porfolio-list li {
   margin-right: 20px;
   display: block;
@@ -639,12 +627,6 @@ img {
 .porfolio-list-2 li {
   margin-right: 20px;
   display: block;
-}
-.portfolio-category-2 {
-  padding-left: 120px;
-}
-.screen-illustrations-div p {
-  padding-left: 155px;
 }
 .footer-footer a {
   display: flex;
