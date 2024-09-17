@@ -1,6 +1,6 @@
 body {
-  background-color: #f4f4fd;
   font-family: "Roboto", sans-serif;
+  background-color: #E7E9FC;
 }
 /* head kısmı */
 h3 {
@@ -94,6 +94,7 @@ ul {
   line-height: 3.75rem;
   color: #ffffff;
   background-color: #2e2f42;
+
 }
 .effective-solutions h1 {
   font-size: 56px;
@@ -360,6 +361,7 @@ img {
 }
 .main-header {
   border-bottom: 1px solid #e7e9fc;
+  padding-left: 200px;
 }
 .container container {
   display: flex;
@@ -406,7 +408,7 @@ img {
 .mail-tel-list {
   display: flex;
   gap: 40px;
-  padding-left: 850px;
+  padding-left: 600px;
 }
 .mail-tel {
   display: flex;
@@ -447,16 +449,22 @@ img {
 /* section and portfolio*/
 .team-section-content {
   padding: 120px 0;
-  width: calc((100% - 72px) / 4);
+  background: #F4F4FD;
+  padding-right:  20px;
+  padding-left: 200px;
+
 }
 .goals-team {
-  border: solid;
   display:flex;
 }
 
 
 .section-our-team {
   margin: 0;
+  background: #e7e9fc;
+  background: #F4F4FD;
+
+
 }
 .section-our-team h2 {
   display: flex;
@@ -529,38 +537,41 @@ img {
   border-bottom-left-radius: 4px;
 }
 .mark-list-card {
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
 }
 .mark-list-card:first-child {
   border-radius: 0px 0px 4px 4px;
 }
 
 .mark-list-card div:hover {
-  border: solid #ffffff;
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
 }
 .mark-name {
   margin-bottom: 8px;
 }
 
 .tom-list-card {
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
   background-color: #ffffff;
 }
 .tom-list-card div:hover {
-  border: solid #ffffff;
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
 }
 .camila-list-card {
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
   background-color: #ffffff;
 }
 .camila-list-card div:hover {
-  border: solid #ffffff;
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
 }
 
 .daniel-list-card {
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
   background-color: #ffffff;
 }
 .daniel-list-card div:hover {
-  border: solid #ffffff;
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
 }
 .portfolio-title {
   padding-left: 900px;
@@ -569,6 +580,8 @@ img {
 .section-portfolio {
   padding: 120px 0;
   background-color: #E7E9FC;
+  background: #F4F4FD;
+
 }
 
 .portfolio-title {
