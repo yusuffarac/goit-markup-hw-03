@@ -371,6 +371,10 @@ img {
 }
 .main-header {
   background-color:  #ffffff ;
+  padding-left: 100px;
+}
+.header-div a {
+  background-color: #ffffff;
 }
 .container container {
   display: flex;
@@ -402,9 +406,6 @@ img {
   align-items: center;
   margin-left: 0 auto;
 }
-.header-div a {
-  margin-left: 80px;
-}
 .header-div ul {
   background-color:  #ffffff ;
   display: flex;
@@ -423,9 +424,9 @@ img {
 .mail-tel-list {
   display: flex;
   gap: 40px;
-  padding-left: 300px;
 }
 .mail-tel {
+  margin-left: 650px;
   display: flex;
   gap: 40px;
 }
