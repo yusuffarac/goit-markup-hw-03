@@ -286,6 +286,7 @@ section {
   line-height: 2.5rem;
   letter-spacing: 2%;
   color: #2e2f42;
+  margin-bottom: 72px ;
 }
 
 .app-1 {
@@ -594,7 +595,7 @@ img {
   padding: 120px 0;
   background-color: #ffffff;
   background: #F4F4FD;
-
+  
 }
 
 .portfolio-title {
