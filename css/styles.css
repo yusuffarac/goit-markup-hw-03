@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #E7E9FC;
+  margin: 0px;
 }
 /* head kısmı */
 h3 {
@@ -370,8 +371,6 @@ img {
 }
 .main-header {
   background-color:  #ffffff ;
-  justify-content: center;
-  display: flex;
 }
 .container container {
   display: flex;
@@ -398,12 +397,16 @@ img {
   margin-right: 76px;
 }
 .header-div {
-  border-bottom: 1px solid #e7e9fc;
+  background-color:  #ffffff ;
   display: flex;
   align-items: center;
   margin-left: 0 auto;
 }
+.header-div a {
+  margin-left: 80px;
+}
 .header-div ul {
+  background-color:  #ffffff ;
   display: flex;
   align-items: center;
   margin-right: 50px;
@@ -420,7 +423,7 @@ img {
 .mail-tel-list {
   display: flex;
   gap: 40px;
-  padding-left: 600px;
+  padding-left: 300px;
 }
 .mail-tel {
   display: flex;
