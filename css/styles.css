@@ -437,17 +437,16 @@ img {
 
 .effective-solutions h1 {
   max-width: 496px;
-  margin-left: 500px;
-  margin-top: 200px;
+  margin: 0 auto;
+  margin-top: 80px;
   align-items: center;
   display: flex;
+  display: block;
 }
 .order-button {
-  display: block;
   margin: 0 auto;
   display: block;
   margin: 0 auto;
-  margin-left: 650px;
   align-items: center;
   border-radius: 4px;
   min-width: 169px;
@@ -455,6 +454,7 @@ img {
   border: none;
   background-color: #4d5ae5;
   cursor: pointer;
+  margin-top: 30px;
 }
 /* section and portfolio*/
 .team-section-content {
