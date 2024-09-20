@@ -472,7 +472,6 @@ img {
 }
 .goals-team {
   display:flex;
-  margin-top: 200px;
   margin-left: 120px;
 }
 
@@ -507,7 +506,6 @@ img {
   display: flex;
   padding:150px 0;
   gap: 24px;
-  margin-top: 100px;
 }
 .our-team h2 {
   margin-bottom: 72px;
@@ -611,7 +609,7 @@ img {
   margin-right: 3px;
   max-width: 1500px;
   flex-wrap: wrap;
-  margin-top: 20px;
+  
   display: flex;
   column-gap: 24px;
   row-gap: 48px;
@@ -633,7 +631,7 @@ img {
   border: none;
   border-bottom: 1px solid #e7e9fc;
   padding: 36px 16px;
-  border: 1px solid #e7e9fc;
+  border: px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
