@@ -472,7 +472,7 @@ img {
 }
 .goals-team {
   display:flex;
-  margin-left: 120px;
+  margin-left: 260px;
 }
 
 
@@ -605,11 +605,10 @@ img {
 }
 
 .portfolio-list {
-  margin-left: 220px;
-  margin-right: 3px;
+  margin-left:300px;
+  margin-right: 1px;
   max-width: 1500px;
   flex-wrap: wrap;
-  
   display: flex;
   column-gap: 24px;
   row-gap: 48px;
@@ -621,17 +620,17 @@ img {
 
 .portfolio-item {
   width: calc((100% - 72px) / 3);
-  width: 380px;
   height: auto;
   justify-content: space-between;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
 }
+
 
 .portfolio-card {
   border: none;
   border-bottom: 1px solid #e7e9fc;
   padding: 36px 16px;
-  border: px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
