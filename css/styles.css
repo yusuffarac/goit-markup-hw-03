@@ -290,44 +290,8 @@ section {
   margin-bottom: 72px ;
 }
 
-.app-1 {
-  list-style-type: none;
-}
-.app-2 {
-  list-style-type: none;
-}
-.app-1 h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5rem;
-  letter-spacing: 2%;
-  color: #2e2f42;
-}
-.app-2 h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5rem;
-  letter-spacing: 2%;
-  color: #2e2f42;
-}
-.app-1 p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5rem;
-  letter-spacing: 2%;
-  color: #434455;
-}
-.app-2 p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5rem;
-  letter-spacing: 2%;
-  color: #434455;
-}
+
+
 
 .footer-footer {
   background-color: #2e2f42;
@@ -378,14 +342,14 @@ img {
 .header-div a {
   background-color: #ffffff;
 }
-.container container {
+.container-header container {
   display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
   justify-content: space-between;
 }
-.container-1 {
+.container-effective container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -603,33 +567,66 @@ img {
   display: flex;
   align-items: center;
 }
+.container-portfolio {
+  margin-bottom: 72px;
 
+}
 .portfolio-list {
-  margin-left:300px;
-  margin-right: 1px;
-  max-width: 1500px;
-  flex-wrap: wrap;
+  justify-content: center;
   display: flex;
+  flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  text-decoration: none;
-  list-style-type: none;
-  justify-content: center;
-  align-items: center;
-}
 
+}
 .portfolio-item {
-  width: calc((100% - 72px) / 3);
-  height: auto;
-  justify-content: space-between;
   margin-bottom: 8px;
+  
+  width:calc((100% - 3 * 24px) /4);
+  height: auto;
 }
-
-
-.portfolio-card {
+.portfolio-card-banking {
+  padding: 32px 16px;
   border: none;
   border-bottom: 1px solid #e7e9fc;
-  padding: 36px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.portfolio-card-cashless {
+  padding: 32px 16px;
+  border: none;
+  border-bottom: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.portfolio-card-meditation {
+  padding: 32px 16px;
+  border: none;
+  border-bottom: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.portfolio-card-taxi {
+  padding: 32px 16px;
+  border: none;
+  border-bottom: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.portfolio-card-screen {
+  border: none;
+  border-bottom: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.portfolio-card-online {
+  border: none;
+  border-bottom: 1px solid #e7e9fc;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
