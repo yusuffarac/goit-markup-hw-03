@@ -555,81 +555,55 @@ img {
   box-shadow: 0px 2px 1px 0px #2E2F4214;
 }
 /* portfolio app*/
-.section-portfolio {
-  padding: 120px 0;
-  background-color: #ffffff;
-  background: #F4F4FD;
-
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.portfolio-title {
-  justify-content: center;
-  display: flex;
-  align-items: center;
+.div-portfolio {
+  background: #ffffff;
 }
-.container-portfolio {
-  margin-bottom: 72px;
-
-}
-.portfolio-list {
-  justify-content: center;
+.div-portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
+  gap: 24px;
   row-gap: 48px;
-
 }
-.portfolio-item {
+.div-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.div-portfolio-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.div-portfolio-list-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   margin-bottom: 8px;
-  
-  width:calc((100% - 3 * 24px) /4);
-  height: auto;
 }
-.portfolio-card-banking {
+.div-portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.div-team-portfolio-container {
   padding: 32px 16px;
-  border: none;
-  border-bottom: 1px solid #e7e9fc;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
-}
-.portfolio-card-cashless {
-  padding: 32px 16px;
-  border: none;
-  border-bottom: 1px solid #e7e9fc;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
-}
-.portfolio-card-meditation {
-  padding: 32px 16px;
-  border: none;
-  border-bottom: 1px solid #e7e9fc;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
-}
-.portfolio-card-taxi {
-  padding: 32px 16px;
-  border: none;
-  border-bottom: 1px solid #e7e9fc;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
-}
-.portfolio-card-screen {
-  border: none;
-  border-bottom: 1px solid #e7e9fc;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
-}
-.portfolio-card-online {
-  border: none;
-  border-bottom: 1px solid #e7e9fc;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
 }
 .footer-footer a {
   display: flex;
