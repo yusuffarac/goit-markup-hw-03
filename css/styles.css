@@ -156,8 +156,9 @@ display: flex;
 gap: 24px;
 }
 .goals-team-li {
+  padding-right: 15px;
   width: calc((100% - 72px) / 4);
-  max-width: 1128px;
+  max-width: 330px;
 }
 .list-class {
   position: absolute;
