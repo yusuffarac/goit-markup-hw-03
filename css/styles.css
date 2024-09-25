@@ -488,71 +488,14 @@ img {
   margin-bottom: 72px;
   text-align: center;
 }
-.mark-list-card:first-child {
-  border-radius: 0px 0px 4px 4px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-.tom-list-card:first-child {
-  border-radius: 0px 0px 4px 4px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-.camilaark-list-card:first-child {
-  border-radius: 0px 0px 4px 4px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-.daniel-list-card:first-child {
-  border-radius: 0px 0px 4px 4px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-.mark-list-card {
+.person-list-card {
   box-shadow: 0px 2px 1px 0px #2E2F4214;
   background-color: #ffffff;
 }
-.mark-list-card:first-child {
-  border-radius: 0px 0px 4px 4px;
-}
-
-.mark-list-card div:hover {
-  box-shadow: 0px 2px 1px 0px #2E2F4214;
-}
-.mark-name {
-  margin-bottom: 8px;
-}
-
-.tom-list-card {
-  box-shadow: 0px 2px 1px 0px #2E2F4214;
-  background-color: #ffffff;
-}
-.tom-list-card div:hover {
-  box-shadow: 0px 2px 1px 0px #2E2F4214;
-}
-.camila-list-card {
-  box-shadow: 0px 2px 1px 0px #2E2F4214;
-  background-color: #ffffff;
-}
-.camila-list-card div:hover {
+.person-list-card div:hover {
   box-shadow: 0px 2px 1px 0px #2E2F4214;
 }
 
-.daniel-list-card {
-  box-shadow: 0px 2px 1px 0px #2E2F4214;
-  background-color: #ffffff;
-}
-.daniel-list-card div:hover {
-  box-shadow: 0px 2px 1px 0px #2E2F4214;
-}
 /* portfolio app*/
 .container {
   max-width: 1158px;
